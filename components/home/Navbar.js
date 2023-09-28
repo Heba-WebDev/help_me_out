@@ -22,6 +22,7 @@ export default function Navbar() {
           alt="HelpMeOut"
           width={120}
           height={50}
+          priority
           style={{ width: "157px", height: "60px" }}
           className="w-full"
         />
