@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-container {
+	padding-inline: 1em;
+	margin-inline: auto;
+	max-width: 90rem;
+}
+
+@media (min-width: 720px) {
+	.custom-container {
+		padding-inline: 2em;
+	}
+}
+
+.blue-dark {
+    color: #120B48;
+}
