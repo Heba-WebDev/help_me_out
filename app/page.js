@@ -1,10 +1,9 @@
-import Navbar from "@/components/globals/Navbar";
+import Home from "@/components/home/Home";
 
-export default function Home() {
+export default function App() {
   return (
-    <main>
-      <Navbar />
-      <h1>hello</h1>
-    </main>
+    <>
+      <Home />
+    </>
   );
 }
