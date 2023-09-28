@@ -23,8 +23,8 @@ export default function Navbar() {
           width={120}
           height={50}
           priority
-          style={{ width: "157px", height: "60px" }}
-          className="w-full"
+          style={{ width: "135px", height: "60px" }}
+          className="w-auto"
         />
         <div className="justify-around gap-3 hidden md:flex">
           <ul className="flex gap-12 items-center">
@@ -39,7 +39,7 @@ export default function Navbar() {
         </div>
         <Link
           href=""
-          className={`${sora.className} font-semibold blue-dark text-lg`}
+          className={`${sora.className} font-semibold blue-dark md:text-[1.05rem]`}
         >
           Get Started
         </Link>
