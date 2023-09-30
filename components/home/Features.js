@@ -12,7 +12,7 @@ export default function Features() {
         </p>
         <div className="pt-12 grid grid-cols-1 md:grid-cols-2 custom-container">
           <div className="flex flex-col gap-6 items-start md:items-center justify-center">
-            <div className="flex gap-3">
+            <div className="flex gap-3 w-full">
               <Image
                 src="/images/home/features1.svg"
                 alt=""
@@ -30,7 +30,7 @@ export default function Features() {
                 </p>
               </div>
             </div>
-            <div className="flex gap-3">
+            <div className="flex gap-3 w-full">
               <Image
                 src="/images/home/features2.svg"
                 alt=""
@@ -48,7 +48,7 @@ export default function Features() {
                 </p>
               </div>
             </div>
-            <div className="flex gap-3 ">
+            <div className="flex gap-3 w-full">
               <Image
                 src="/images/home/features3.svg"
                 alt=""
@@ -68,14 +68,16 @@ export default function Features() {
               </div>
             </div>
           </div>
-          <Image
-            src="/images/home/features4.svg"
-            alt=""
-            width={300}
-            height={300}
-            style={{ width: "100%", height: "100%" }}
-            className="w-full max-w-[100%] md:max-w-[95%] lg:max-w-[80%] mt-10 md:mt-0"
-          />
+          <div className="w-full flex justify-end">
+            <Image
+              src="/images/home/features4.svg"
+              alt=""
+              width={300}
+              height={300}
+              style={{ width: "100%", height: "100%" }}
+              className="w-full max-w-[100%] md:max-w-[95%] mt-10 md:mt-0"
+            />
+          </div>
         </div>
       </section>
     </article>
