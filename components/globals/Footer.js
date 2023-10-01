@@ -18,7 +18,7 @@ const screen_record = [
 
 export default function Footer() {
   return (
-    <footer className="blue-bg py-[6rem] text-white text-[0.9rem]">
+    <footer className="blue-bg py-[6rem] text-white text-[0.9rem] mt-auto">
       <section className="custom-container flex flex-col md:grid  gap-12 md:gap-0 grid-cols-3">
         <Image
           src="/images/globals/logo-footer.svg"

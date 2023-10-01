@@ -38,7 +38,7 @@ export default function Navbar() {
           </ul>
         </div>
         <Link
-          href=""
+          href="/login"
           className={`${sora.className} font-semibold blue-dark md:text-[1.05rem]`}
         >
           Get Started
